@@ -1,0 +1,33 @@
+.container{
+    width:120rem;
+    background-color: var( --colour-grey-light-1);
+    margin:4rem auto;
+    height: 50rem;
+}
+.header{
+    height:7rem;
+    background-color: white;
+    border-bottom: 1px solid var( --colour-grey-light-1);
+
+    justify-content: space-between;
+    align-items: center;
+    display:flex;
+}
+.content{
+display: flex;
+}
+
+.sidebar{
+    background-color: blue;
+    flex: 0 0 15%;
+}
+.info{
+    background-color: grey;
+    flex: 1;
+}
+.welcomeToIcacie{
+    background-color: aqua;
+}
+.footer{
+    background-color: chartreuse;
+}

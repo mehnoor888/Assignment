@@ -1,0 +1,38 @@
+:root{
+    --colour-primary:#f8352b;
+    --colour-primary-light: #f88882;
+    --colour-primary-dark:#f34628;
+    --colour-footer:#1d6fa3;
+    --colour-grey-light-1: #faf9f9;
+    --colour-grey-light-2:#f4f2f2;
+    --colour-grey-light-3:#f0eeee;
+    --colour-grey-light-4:#ccc;
+    --colour-grey-dark-1: 口#333;
+    --colour-grey-dark-2: #777;
+    --colour-grey-dark-3:#999;
+
+}
+
+*,
+*::before,
+*::after
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html
+{
+font-size: 62.5%;
+
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    background-image:linear-gradient(to bottom right, var( --colour-primary-light), var(--colour-primary-dark));
+    min-height: 100vh;
+    
+}
